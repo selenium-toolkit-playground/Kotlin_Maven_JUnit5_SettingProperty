@@ -1,0 +1,9 @@
+# allure
+.allure
+
+# Maven
+target
+
+# IntelliJ
+.idea
+*.iml

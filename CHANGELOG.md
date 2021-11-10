@@ -3,7 +3,28 @@
 All notable changes to this project will be documented in this file.
 
 Basically, the upgrades are made by adjusting in the POM at the version of the toolkit.
-If additional steps are necessary, this is noted under "Upgrade Steps
+If additional steps are necessary, this is noted under "Upgrade Steps"
+
+## [1.3.25] - 2021-11-10
+
+Here we would have the update steps for 1.3.25 for people to follow.
+
+### Upgrade Steps
+`-`
+
+
+### Added
+- Webdriver Autodownload: We have extended the toolkit with a dependency, so that now via the configuration auto-download, the Driver.exe to the browsers will be downloaded automatically. If this leads to errors or no internet access is available, this can of course still be switched off.
+- License-Server: Now the license can be pulled via a SeleniumToolkit license server. Licenses are bound to the projects. So first the project must be registered on the server. The toolkit then connects to the server defined in the config to get the license.
+- Networktraffic-Capturing Mode: If the mode is enabled, the test will automatically start a proxy which captures the Networktraffic. A HAR file is attached to the report.
+- Saucelabs-Gridvendor: We added Sazcekabs functions, Saucelabs as a Gridvendor and SaucelabsOptions to allow an easy handling of Saucelabs specifics.
+
+
+### Changed
+- We have added multiple configurations samples in this sample project so that all methods are now overwritten and described. So it should be even easier to see all configurations and their effects.
+
+### Fixed
+`-`
 
 ## [1.3.24] - 2021-09-27
 

@@ -6,6 +6,10 @@ This sample-Project shows how to use it with JUnit5.
 The goal of the toolkit is, to support you by creating and maintainig your seleniumtests.
 It also give you a nice Report to have a better overview.
 
+## Upgrade
+The changes between the versions and the upgrade steps (if necessary) are described in the [CHANGELOG](CHANGELOG.md).
+If you already have a version of the toolkit in use, please have a look at the [CHANGELOG](CHANGELOG.md).
+
 ## Instructions and Help
 Please visit our Page [Showcase](https://selenium-toolkit.com/showcase/) to learn more about the different Parts of the Toolkit and how its working
 
@@ -44,7 +48,7 @@ pom.xml:
 <dependency>
     <groupId>com.selenium-toolkit</groupId>
     <artifactId>selenium-java-toolkit-JUnit5-pro</artifactId>
-    <version>1.3.23</version>
+    <version>1.3.24</version>
     <scope>test</scope>
 </dependency>
 ```

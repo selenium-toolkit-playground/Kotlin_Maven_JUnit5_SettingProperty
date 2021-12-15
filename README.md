@@ -48,7 +48,7 @@ pom.xml:
 <dependency>
     <groupId>com.selenium-toolkit</groupId>
     <artifactId>selenium-java-toolkit-JUnit5-pro</artifactId>
-    <version>1.3.25</version>
+    <version>1.3.26</version>
     <scope>test</scope>
 </dependency>
 ```
